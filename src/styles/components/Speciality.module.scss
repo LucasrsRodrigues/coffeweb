@@ -1,1 +1,30 @@
-.speciality {}
+.spec {
+  .spec__category {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+    row-gap: 2.5rem;
+
+    .spec__group {
+      text-align: center;
+
+      &:hover .spec__img {
+        transform: translateY(-.25rem);
+      }
+
+      .spec__title {
+        font-size: var(--h2-font-size);
+        margin-bottom: .25rem;
+      }
+
+      .spec__img {
+        width: 60px;
+        margin-bottom: 1rem;
+        transition: .4s;
+      }
+    }
+
+
+  }
+}
