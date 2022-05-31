@@ -87,3 +87,10 @@
     }
   }
 }
+
+@media screen and (min-width: 576px) {
+  .products__content {
+    grid-template-columns: repeat(2, 200px);
+    padding-bottom: 3rem;
+  }
+}

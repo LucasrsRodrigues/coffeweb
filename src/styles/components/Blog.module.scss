@@ -75,3 +75,10 @@
     }
   }
 }
+
+@media screen and (min-width: 576px) {
+  .blog__content {
+    grid-template-columns: 450px;
+    justify-content: center;
+  }
+}

@@ -1,10 +1,13 @@
 import { BiGridAlt, BiX } from "react-icons/bi";
 import styles from '@/styles/components/Header.module.scss';
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [scrollY, setScrollY] = useState(false);
+  const [activeLink, setActiveLink] = useState('');
+
 
   function toggleOpenMenu() {
     setMenuIsOpen(!menuIsOpen);
@@ -20,6 +23,12 @@ function Header() {
     })
   }, []);
 
+
+  function handleSetActiveLink(link: string) {
+    setActiveLink(link);
+    setMenuIsOpen(false);
+  }
+
   return (
     <header className={`${styles.header} ${scrollY ? styles.scroll : ''}`} id="header">
       <nav className={`${styles.nav} container`}>
@@ -31,16 +40,16 @@ function Header() {
         <div className={`${styles.menu} ${menuIsOpen ? styles.open : ''}`} id="nav-menu">
           <ul className={styles.list}>
             <li className={styles.item}>
-              <a href="#home" className={styles.link}>Home</a>
+              <a href="#home" className={`${styles.link} ${activeLink === 'home' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('home')}>Home</a>
             </li>
             <li className={styles.item}>
-              <a href="#products" className={styles.link}>Products</a>
+              <a href="#products" className={`${styles.link} ${activeLink === 'products' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('products')}>Products</a>
             </li>
             <li className={styles.item}>
-              <a href="#premium" className={styles.link}>Premium</a>
+              <a href="#premium" className={`${styles.link} ${activeLink === 'premium' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('premium')}>Premium</a>
             </li>
             <li className={styles.item}>
-              <a href="#blog" className={styles.link}>Blog</a>
+              <a href="#blog" className={`${styles.link} ${activeLink === 'blog' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('blog')}>Blog</a>
             </li>
           </ul>
 

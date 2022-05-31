@@ -28,3 +28,10 @@
 
   }
 }
+
+@media screen and (min-width: 576px) {
+  .spec__category {
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 3rem;
+  }
+}

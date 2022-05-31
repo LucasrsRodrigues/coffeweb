@@ -125,3 +125,35 @@ button {
   height: 20px;
   background-color: var(--first-color);
 }
+
+/*=============== SCROLL ===============*/
+
+::-webkit-scrollbar {
+  width: .6rem;
+  background: hsl(206, 4%, 80%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(206, 4%, 64%);
+
+  &:hover {
+    background: hsl(206, 4%, 48%);
+  }
+}
+
+/*=============== SCROLL ===============*/
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+
+@media screen and (min-width: 767px) {
+  .section {
+    padding: 7rem 0 2rem;
+  }
+
+
+}

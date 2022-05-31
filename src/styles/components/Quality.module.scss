@@ -79,7 +79,17 @@
           }
         }
       }
-
     }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .quality__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .quality__imgSmall {
+    transform: translateX(-6rem);
   }
 }
