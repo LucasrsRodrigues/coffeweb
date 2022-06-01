@@ -24,8 +24,41 @@
         transition: .4s;
       }
     }
+  }
 
+  @media screen and (min-width: 1040px) {
+    display: grid;
+    grid-template-columns: 2fr .5fr;
 
+    .spec__group {
+      text-align: initial;
+
+      .spec__img {
+        width: 80px;
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .spec__category {
+      grid-template-columns: repeat(3, 250px);
+      column-gap: 8rem;
+    }
+
+    .spec__line {
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 1px;
+        height: 120px;
+        background-color: var(--text-color-light);
+        position: absolute;
+        right: -5rem;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+      }
+    }
   }
 }
 

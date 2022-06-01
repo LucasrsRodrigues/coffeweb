@@ -93,3 +93,39 @@
     transform: translateX(-6rem);
   }
 }
+
+
+@media screen and (min-width: 1040px) {
+  .quality {
+
+    .quality__content {
+      column-gap: 6rem;
+
+      .quality__images {
+        margin-top: 2rem;
+
+        .quality__imgBig {
+          width: 428px;
+        }
+
+        .quality__imgSmall {
+          width: 153px;
+          transform: translateX(-7rem);
+        }
+      }
+
+      .quality__data {
+
+        .quality__title {
+          margin-bottom: 1.5rem;
+        }
+
+
+        .quality__special {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+  }
+}

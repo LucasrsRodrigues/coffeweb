@@ -2,7 +2,7 @@ import styles from '@/styles/components/Home.module.scss';
 
 function Home() {
   return (
-    <section className={`${styles.home} grid`}>
+    <section className={`${styles.home} grid`} id="home">
       <div className={styles.home__container}>
         <div className={`${styles.home__content} container`}>
           <h1 className={styles.home__title}>

@@ -22,3 +22,18 @@
     }
   }
 }
+
+
+@media screen and (min-width: 1040px) {
+  .logo {
+
+    .logo__container {
+      grid-template-columns: repeat(5, 1fr);
+      padding: 3.5rem 0;
+
+      .logo__img {
+        width: 110px;
+      }
+    }
+  }
+}

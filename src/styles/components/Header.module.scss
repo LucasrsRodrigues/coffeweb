@@ -102,6 +102,10 @@
         top: 1rem;
         right: 1rem;
         cursor: pointer;
+
+        @media screen and (min-width: 767px) {
+          display: none;
+        }
       }
     }
   }
@@ -136,4 +140,5 @@
       right: 0;
     }
   }
+
 }

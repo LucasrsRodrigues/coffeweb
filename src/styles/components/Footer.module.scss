@@ -54,9 +54,6 @@
       font-size: var(--h2-font-size);
       margin-bottom: .75rem;
     }
-
-
-
   }
 
   .footer__flag {
@@ -95,6 +92,41 @@
 @media screen and (min-width: 576px) {
   .footer__newsletter {
     width: 350px;
+  }
 
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+
+
+@media screen and (min-width: 1040px) {
+  .footer {
+
+    .footer__title {
+      font-size: var(--h2-font-size);
+    }
+
+    .footer__content {
+      grid-template-columns: repeat(4, max-content);
+      column-gap: 4rem;
+      padding-bottom: 5.5rem;
+    }
+
+    .footer__group {
+      margin-top: 3rem;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .footer__social {
+        column-gap: 2rem;
+
+        .footer__socialLink {
+          font-size: 1.5rem;
+        }
+
+      }
+    }
   }
 }

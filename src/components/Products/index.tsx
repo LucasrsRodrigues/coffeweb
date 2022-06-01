@@ -88,7 +88,7 @@ function Products() {
                   <h2 className={styles.products__price}>R$ {products.price}</h2>
                   <h3 className={styles.products__name}>{products.name}</h3>
 
-                  <Button clsName='products__button'>
+                  <Button clsName={styles.products__button}>
                     <BiShoppingBag />
                   </Button>
                 </div>

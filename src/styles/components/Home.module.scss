@@ -98,3 +98,44 @@
     position: relative;
   }
 }
+
+@media screen and (min-width: 1040px) {
+  .home__content {
+    max-width: 400px;
+    margin-right: 7rem;
+    margin-left: auto;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .home__container {
+    padding-top: 10rem;
+
+    .home__content {
+      .home__data {
+        padding-top: 3rem;
+      }
+
+      .home__title {
+        margin-bottom: 2rem;
+      }
+
+      .home__description {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  .home__scroll {
+    width: 130px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .home {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
