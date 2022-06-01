@@ -1,4 +1,5 @@
 import styles from '@/styles/components/Loader.module.scss';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 function Loader() {
@@ -12,7 +13,7 @@ function Loader() {
 
   return (
     <div className={`${styles.load} ${show ? styles.show : ''}`} id="load">
-      <img src="assets/img/loadcoffee.gif" alt="Carregando..." />
+      <Image src="assets/img/loadcoffee.gif" alt="Carregando..." />
     </div>
   )
 }

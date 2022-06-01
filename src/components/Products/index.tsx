@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { BiShoppingBag } from 'react-icons/bi';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Button } from '../Button';
+import Image from 'next/image';
 
 interface ProductsProps {
   image: string;
@@ -81,7 +82,7 @@ function Products() {
                 className={styles.products__card}
               >
                 <div className={styles.products__shape}>
-                  <img src={`assets/img/${products.image}`} className={styles.products__img} />
+                  <Image src={`assets/img/${products.image}`} className={styles.products__img} />
                 </div>
 
                 <div className={styles.products__data}>

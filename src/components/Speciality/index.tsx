@@ -1,5 +1,6 @@
 import styles from '@/styles/components/Speciality.module.scss';
 import { Button } from '@/components/Button';
+import Image from 'next/image';
 
 function Speciality() {
   return (
@@ -17,7 +18,7 @@ function Speciality() {
 
         <div className={styles.spec__category}>
           <div className={`${styles.spec__group} ${styles.spec__line}`}>
-            <img src="assets/img/specialty1.png" alt="" className={styles.spec__img} />
+            <Image src="assets/img/specialty1.png" alt="" className={styles.spec__img} />
 
             <h3 className={styles.spec__title}>Selected Coffee</h3>
             <p className="spec__description">
@@ -26,7 +27,7 @@ function Speciality() {
           </div>
 
           <div className={`${styles.spec__group} ${styles.spec__line}`}>
-            <img src="assets/img/specialty2.png" alt="" className={styles.spec__img} />
+            <Image src="assets/img/specialty2.png" alt="" className={styles.spec__img} />
 
             <h3 className={styles.spec__title}>Delicious Cookies</h3>
             <p className="spec__description">
@@ -35,7 +36,7 @@ function Speciality() {
           </div>
 
           <div className={`${styles.spec__group}`}>
-            <img src="assets/img/specialty3.png" alt="" className={styles.spec__img} />
+            <Image src="assets/img/specialty3.png" alt="" className={styles.spec__img} />
 
             <h3 className={styles.spec__title}>Enjoy at Home</h3>
             <p className="spec__description">Enjoy the best coffee in the comfort of your home.</p>

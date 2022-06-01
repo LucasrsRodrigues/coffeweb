@@ -1,4 +1,5 @@
 import styles from '@/styles/components/Home.module.scss';
+import Image from 'next/image';
 
 function Home() {
   return (
@@ -31,12 +32,12 @@ function Home() {
           </div>
 
           <a href="#speciality">
-            <img src="assets/img/scroll.png" alt="" className={styles.home__scroll} />
+            <Image src="assets/img/scroll.png" alt="" className={styles.home__scroll} />
           </a>
         </div>
       </div>
 
-      <img src="assets/img/home.png" alt="" className="home__img" />
+      <Image src="assets/img/home.png" alt="" className="home__img" />
     </section>
   )
 }

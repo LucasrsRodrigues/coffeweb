@@ -1,6 +1,7 @@
 import styles from '@/styles/components/Quality.module.scss';
 import { Button } from '../Button';
 import { BiRightArrowAlt } from 'react-icons/bi';
+import Image from 'next/image';
 
 function Quality() {
   return (
@@ -10,8 +11,8 @@ function Quality() {
 
         <div className={`${styles.quality__content} grid`}>
           <div className={styles.quality__images}>
-            <img src="assets/img/quality1.png" alt="" className={styles.quality__imgBig} />
-            <img src="assets/img/quality2.png" alt="" className={styles.quality__imgSmall} />
+            <Image src="assets/img/quality1.png" alt="" className={styles.quality__imgBig} />
+            <Image src="assets/img/quality2.png" alt="" className={styles.quality__imgSmall} />
           </div>
 
           <div className={styles.quality__data}>

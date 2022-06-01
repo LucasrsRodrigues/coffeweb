@@ -1,4 +1,5 @@
 import styles from '@/styles/components/Blog.module.scss';
+import Image from 'next/image';
 import { BiRightArrowAlt, BiComment, BiShow } from 'react-icons/bi';
 
 
@@ -22,7 +23,7 @@ function Blog() {
 
             <article className={styles.blog__card}>
               <div className={styles.blog__image}>
-                <img src={`assets/img/${article.image}`} alt="" className={styles.blog__img} />
+                <Image src={`assets/img/${article.image}`} alt="" className={styles.blog__img} />
                 <a href="" className={styles.blog__button}>
                   <BiRightArrowAlt />
                 </a>

@@ -1,4 +1,5 @@
 import styles from '@/styles/components/Footer.module.scss';
+import Image from 'next/image';
 import { BiFace, BiRightArrowAlt } from 'react-icons/bi';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { ScrollUp } from '../ScrollUp';
@@ -29,7 +30,7 @@ function Footer() {
               9876 Hacienda Av. <br />
               Lima, La Libertad 123, Perú
             </p>
-            <img src="assets/img/footerflag.png" alt="" className={styles.footer__flag} />
+            <Image src="assets/img/footerflag.png" alt="" className={styles.footer__flag} />
           </div>
 
           <div className="footer__data">
