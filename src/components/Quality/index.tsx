@@ -11,8 +11,8 @@ function Quality() {
 
         <div className={`${styles.quality__content} grid`}>
           <div className={styles.quality__images}>
-            <Image src="assets/img/quality1.png" alt="" className={styles.quality__imgBig} />
-            <Image src="assets/img/quality2.png" alt="" className={styles.quality__imgSmall} />
+            <img src="assets/img/quality1.png" alt="" className={styles.quality__imgBig} />
+            <img src="assets/img/quality2.png" alt="" className={styles.quality__imgSmall} />
           </div>
 
           <div className={styles.quality__data}>

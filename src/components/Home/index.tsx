@@ -32,12 +32,12 @@ function Home() {
           </div>
 
           <a href="#speciality">
-            <Image src="assets/img/scroll.png" alt="" className={styles.home__scroll} />
+            <img src="assets/img/scroll.png" alt="" className={styles.home__scroll} />
           </a>
         </div>
       </div>
 
-      <Image src="assets/img/home.png" alt="" className="home__img" />
+      <img src="assets/img/home.png" alt="" className="home__img" />
     </section>
   )
 }

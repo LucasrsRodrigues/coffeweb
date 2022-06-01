@@ -30,7 +30,7 @@ function Footer() {
               Praça da Sé, 68 <br />
               Centro Histórico de São Paulo, São Paulo
             </p>
-            <Image src="assets/img/footerflag.png" alt="" className={styles.footer__flag} />
+            <img src="assets/img/footerflag.png" alt="" className={styles.footer__flag} />
           </div>
 
           <div className="footer__data">

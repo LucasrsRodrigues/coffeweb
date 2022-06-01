@@ -18,7 +18,7 @@ function Speciality() {
 
         <div className={styles.spec__category}>
           <div className={`${styles.spec__group} ${styles.spec__line}`}>
-            <Image src="assets/img/specialty1.png" alt="" className={styles.spec__img} />
+            <img src="assets/img/specialty1.png" alt="" className={styles.spec__img} />
 
             <h3 className={styles.spec__title}>Cafés selecionados</h3>
             <p className="spec__description">
@@ -27,7 +27,7 @@ function Speciality() {
           </div>
 
           <div className={`${styles.spec__group} ${styles.spec__line}`}>
-            <Image src="assets/img/specialty2.png" alt="" className={styles.spec__img} />
+            <img src="assets/img/specialty2.png" alt="" className={styles.spec__img} />
 
             <h3 className={styles.spec__title}>Biscoitos deliciosos</h3>
             <p className="spec__description">
@@ -36,7 +36,7 @@ function Speciality() {
           </div>
 
           <div className={`${styles.spec__group}`}>
-            <Image src="assets/img/specialty3.png" alt="" className={styles.spec__img} />
+            <img src="assets/img/specialty3.png" alt="" className={styles.spec__img} />
 
             <h3 className={styles.spec__title}>Aproveite em casa</h3>
             <p className="spec__description">Desfrute do melhor café no conforto da sua casa.</p>

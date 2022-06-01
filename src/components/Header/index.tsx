@@ -38,7 +38,7 @@ function Header() {
       </Head>
       <nav className={`${styles.nav} container`}>
         <a href="#" className={styles.logo}>
-          <Image src="assets/img/logo.png" alt="" className="nav__logo" />
+          <img src="assets/img/logo.png" alt="" className="nav__logo" />
           Coffe.
         </a>
 

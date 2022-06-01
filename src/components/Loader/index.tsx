@@ -13,7 +13,7 @@ function Loader() {
 
   return (
     <div className={`${styles.load} ${show ? styles.show : ''}`} id="load">
-      <Image src="assets/img/loadcoffee.gif" alt="Carregando..." />
+      <img src="assets/img/loadcoffee.gif" alt="Carregando..." />
     </div>
   )
 }

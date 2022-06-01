@@ -23,7 +23,7 @@ function Blog() {
 
             <article className={styles.blog__card} key={article.id}>
               <div className={styles.blog__image}>
-                <Image src={`assets/img/${article.image}`} alt="" className={styles.blog__img} />
+                <img src={`assets/img/${article.image}`} alt="" className={styles.blog__img} />
                 <a href="" className={styles.blog__button}>
                   <BiRightArrowAlt />
                 </a>

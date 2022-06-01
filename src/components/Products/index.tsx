@@ -82,7 +82,7 @@ function Products() {
                 className={styles.products__card}
               >
                 <div className={styles.products__shape}>
-                  <Image src={`assets/img/${products.image}`} className={styles.products__img} />
+                  <img src={`assets/img/${products.image}`} className={styles.products__img} />
                 </div>
 
                 <div className={styles.products__data}>
