@@ -47,7 +47,7 @@ function Products() {
     const filtered = products.filter(project => project.type.includes(activeOption));
 
     setFiltered(filtered);
-  }, [activeOption]);
+  }, [activeOption, products]);
 
 
 
@@ -55,14 +55,14 @@ function Products() {
     <section id="products" className={`${styles.products} section`}>
       <div className={`${styles.products__container} container`}>
         <h2 className="section__title">
-          Choose our delicious and best products
+          Escolha nossos deliciosos e melhores produtos
         </h2>
 
         <ul className={styles.products__filters}>
           {filters.map(filter => (
             <li key={filter.id} className={`${styles.products__item} ${styles.products__line} ${activeOption === filter.label ? styles.activeOption : ''}`} onClick={() => { setOptionActive(filter.label) }}>
               <h3 className={styles.products__title}>{filter.title}</h3>
-              <span className={styles.products__stock}>{filter.stock} products</span>
+              <span className={styles.products__stock}>{filter.stock} produtos</span>
             </li>
           ))}
         </ul>

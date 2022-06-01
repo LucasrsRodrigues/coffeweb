@@ -48,7 +48,7 @@ function Header() {
               <a href="#home" className={`${styles.link} ${activeLink === 'home' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('home')}>Home</a>
             </li>
             <li className={styles.item}>
-              <a href="#products" className={`${styles.link} ${activeLink === 'products' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('products')}>Products</a>
+              <a href="#products" className={`${styles.link} ${activeLink === 'products' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('products')}>Produtos</a>
             </li>
             <li className={styles.item}>
               <a href="#premium" className={`${styles.link} ${activeLink === 'premium' ? styles.activeLink : ''}`} onClick={() => handleSetActiveLink('premium')}>Premium</a>

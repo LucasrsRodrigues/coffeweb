@@ -14,14 +14,14 @@ function Blog() {
     <section className={`${styles.blog} section`} id="blog">
       <div className={`${styles.blog__container} container`}>
         <h2 className="section__title">
-          Our Blogs Coffee with trending topic for hits week
+          Nosso Café dos Blogs com trending topic para esta semana
         </h2>
 
         <div className={`${styles.blog__content} grid`}>
 
           {articles.map(article => (
 
-            <article className={styles.blog__card}>
+            <article className={styles.blog__card} key={article.id}>
               <div className={styles.blog__image}>
                 <Image src={`assets/img/${article.image}`} alt="" className={styles.blog__img} />
                 <a href="" className={styles.blog__button}>

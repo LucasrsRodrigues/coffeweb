@@ -13,7 +13,7 @@ function Footer() {
         <div className={`${styles.footer__content} grid`}>
           <div className="footer__data">
             <p className={styles.footer__description}>
-              Subscribe to our newsletter
+              Assine a nossa newsletter
             </p>
 
             <div className={styles.footer__newsletter}>
@@ -25,26 +25,26 @@ function Footer() {
           </div>
 
           <div className="footer__data">
-            <h2 className={styles.footer__subtitle}>Address</h2>
+            <h2 className={styles.footer__subtitle}>Endereço</h2>
             <p className="footer__information">
-              9876 Hacienda Av. <br />
-              Lima, La Libertad 123, Perú
+              Praça da Sé, 68 <br />
+              Centro Histórico de São Paulo, São Paulo
             </p>
             <Image src="assets/img/footerflag.png" alt="" className={styles.footer__flag} />
           </div>
 
           <div className="footer__data">
-            <h2 className={styles.footer__subtitle}>Contact</h2>
+            <h2 className={styles.footer__subtitle}>Contato</h2>
             <p className="footer__information">
-              +987654321 <br />
+              +55 11 9 9999-9999 <br />
               coffee@email.com
             </p>
           </div>
 
           <div className="footer__data">
-            <h2 className={styles.footer__subtitle}>Office</h2>
+            <h2 className={styles.footer__subtitle}>Escritório</h2>
             <p className="footer__information">
-              Monday - Saturday <br />
+              Segunda-Sábado <br />
               9AM - 10PM
             </p>
           </div>

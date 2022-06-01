@@ -7,26 +7,26 @@ function Home() {
       <div className={styles.home__container}>
         <div className={`${styles.home__content} container`}>
           <h1 className={styles.home__title}>
-            Chosse Your Favorite Coffe And Enjoy<span>.</span>
+            Escolha seu café favorito e aproveite<span>.</span>
           </h1>
           <p className={styles.home__description}>
-            Buy the best and delicious coffes.
+            Compre os melhores e deliciosos cafés.
           </p>
 
           <div className={styles.home__data}>
             <div className="home__data-group">
               <h2 className={styles.home__dataNumber}>120K</h2>
-              <h3 className={styles.home__dataTitle}>Testimonials</h3>
+              <h3 className={styles.home__dataTitle}>Depoimentos</h3>
               <p className="home__data-description">
-                Testimonials from various customers who trust us.
+                Depoimentos de vários clientes que confiam em nós.
               </p>
             </div>
 
             <div className="home__data-group">
               <h2 className={styles.home__dataNumber}>340+</h2>
-              <h3 className={styles.home__dataTitle}>Exclusive Product</h3>
+              <h3 className={styles.home__dataTitle}>Produtos Exclusivos</h3>
               <p className="home__data-description">
-                Premium preparation with quality ingredients.
+                Preparação premium com ingredientes de qualidade.
               </p>
             </div>
           </div>

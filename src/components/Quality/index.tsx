@@ -7,7 +7,7 @@ function Quality() {
   return (
     <section id="premium" className={`${styles.quality} section`}>
       <div className={`${styles.quality__container} container`}>
-        <h2 className="section__title">We offer a premium and bette rquality preparation just for you!</h2>
+        <h2 className="section__title">Oferecemos uma preparação premium e de melhor qualidade só para você!</h2>
 
         <div className={`${styles.quality__content} grid`}>
           <div className={styles.quality__images}>
@@ -16,22 +16,20 @@ function Quality() {
           </div>
 
           <div className={styles.quality__data}>
-            <h1 className={styles.quality__title}>Premium Coffee</h1>
+            <h1 className={styles.quality__title}>Café Premium</h1>
             <h2 className={styles.quality__price}>R$ 94.99</h2>
-            <span className={styles.quality__special}>Especial Price</span>
+            <span className={styles.quality__special}>Preço especial</span>
             <p className={styles.quality__description}>
-              We are delighted with our coffee. That's why you get the best
-              premium coffee plus the kettle made of ressitant materials
-              you see in the image, for a special price.
+              Estamos encantados com o nosso café. É por isso que você recebe o melhor café premium mais a chaleira feita de materiais resistentes que você vê na imagem, por um preço especial.
             </p>
 
             <div className={styles.quality__buttons}>
               <Button>
-                Buy now
+                Compre Agora
               </Button>
 
               <a href="#" className={styles.quality__button}>
-                See more
+                Ver mais
                 <BiRightArrowAlt />
               </a>
             </div>
