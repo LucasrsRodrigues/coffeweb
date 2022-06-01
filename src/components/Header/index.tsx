@@ -2,6 +2,7 @@ import { BiGridAlt, BiX } from "react-icons/bi";
 import styles from '@/styles/components/Header.module.scss';
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -31,6 +32,9 @@ function Header() {
 
   return (
     <header className={`${styles.header} ${scrollY ? styles.scroll : ''}`} id="header">
+      <Head>
+        <title>.:Coffe:.</title>
+      </Head>
       <nav className={`${styles.nav} container`}>
         <a href="#" className={styles.logo}>
           <img src="assets/img/logo.png" alt="" className="nav__logo" />
