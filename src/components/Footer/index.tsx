@@ -52,15 +52,15 @@ function Footer() {
 
         <div className={styles.footer__group}>
           <ul className={styles.footer__social}>
-            <a href="https://www.facebook.com/" target="_blank" className={styles.footer__socialLink}>
+            <a href="https://www.facebook.com/" target="_blank" className={styles.footer__socialLink} rel="noreferrer">
               <FaFacebookF />
             </a>
 
-            <a href="https://www.instagram.com/" target="_blank" className={styles.footer__socialLink}>
+            <a href="https://www.instagram.com/" target="_blank" className={styles.footer__socialLink} rel="noreferrer">
               <FaInstagram />
             </a>
 
-            <a href="https://www.twitter.com/" target="_blank" className={styles.footer__socialLink}>
+            <a href="https://www.twitter.com/" target="_blank" className={styles.footer__socialLink} rel="noreferrer">
               <FaTwitter />
             </a>
           </ul>
